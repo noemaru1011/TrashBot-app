@@ -1,4 +1,4 @@
-# LINE Trash AI
+# TrashBot-app
 
 LINEからAIに質問することで、ゴミ出しの日程や分別方法を確認できる個人向けゴミ出し管理システムです。
 
@@ -6,6 +6,7 @@ LINE Messaging APIとGemini APIを利用し、自然言語での質問に応じ�
 
 参考記事(Qiita)
 [Qiita](https://qiita.com/ei_1263_/items/590453d836ba9d9c6f66)
+※ 結局、日常的に使ったのがゴミ出しだけでしたのでrepositoryを公開します
 
 ## 概要
 
