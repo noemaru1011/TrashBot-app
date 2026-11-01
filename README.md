@@ -223,7 +223,7 @@ AIに直接GitHub APIを操作させるのではなく、アプリケーショ�
 - LINE Developersアカウント
 - Gemini APIキー
 - GitHub Personal Access Token
-- ゴミ出し情報を管理するGitHubリポジトリ
+- ゴミ出し情報を管理するGitHubリポジトリ[参照](https://github.com/noemaru1011/TrashBot-data)
 
 ### インストール
 
