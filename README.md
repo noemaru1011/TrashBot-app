@@ -5,7 +5,7 @@ LINEからAIに質問することで、ゴミ出しの日程や分別方法を�
 LINE Messaging APIとGemini APIを利用し、自然言語での質問に応じてゴミ出し情報を取得・回答します。
 
 参考記事(Qiita)
-[Qiita](https://qiita.com/ei_1263_/items/590453d836ba9d9c6f66)
+[Qiita](https://qiita.com/ei_1263_/items/590453d836ba9d9c6f66)  
 ※ 結局、日常的に使ったのがゴミ出しだけでしたのでrepositoryを公開します
 
 ## 概要
