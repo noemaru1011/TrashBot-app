@@ -1,0 +1,22 @@
+{
+	"name": "TrashBot-app",
+	"private": true,
+	"version": "1.0.0",
+	"scripts": {
+		"test": "vitest"
+	},
+	"dependencies": {
+		"@google/genai": "^2.17.1",
+		"@line/bot-sdk": "^11.2.0",
+		"dotenv": "^17.4.2",
+		"hono": "^4.13.2",
+		"js-base64": "^3.9.3",
+		"vitest": "^4.1.11",
+		"yaml": "^2.9.0",
+		"zod": "^4.4.3"
+	},
+	"devDependencies": {
+		"tsx": "^4.23.12",
+		"wrangler": "^4.123.0"
+	}
+}
