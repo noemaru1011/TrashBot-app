@@ -30,7 +30,7 @@ export async function getDataFile(filename: string, env: Env): Promise<string> {
 			Accept: 'application/vnd.github+json',
 			Authorization: `Bearer ${env.GITHUB_TOKEN}`,
 			'X-GitHub-Api-Version': '2022-11-28',
-			'User-Agent': 'LifeAI',
+			'User-Agent': 'TrashBot',
 		},
 	});
 
@@ -77,7 +77,7 @@ export async function upsertDataFile(filename: string, content: string, env: Env
 			Accept: 'application/vnd.github+json',
 			Authorization: `Bearer ${env.GITHUB_TOKEN}`,
 			'X-GitHub-Api-Version': '2022-11-28',
-			'User-Agent': 'LifeAI',
+			'User-Agent': 'TrashBot',
 		},
 	});
 
@@ -107,7 +107,7 @@ export async function upsertDataFile(filename: string, content: string, env: Env
 			Authorization: `Bearer ${env.GITHUB_TOKEN}`,
 			'Content-Type': 'application/json',
 			'X-GitHub-Api-Version': '2022-11-28',
-			'User-Agent': 'LifeAI',
+			'User-Agent': 'TrashBot',
 		},
 		body: JSON.stringify({
 			message: `Update ${path}`,
